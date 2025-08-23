@@ -4,13 +4,14 @@ body {
   margin: 0;
   padding: 0;
   background: #f4f4f9;
-  color: #333;
+/*   color: #333; */
+  color: teal
 }
 
 /* Header */
 header {
   background: #0078d7;
-  color: white;
+  color: LightCoral;
   text-align: center;
   padding: 2rem;
 }
@@ -45,7 +46,7 @@ h2 {
 
 /* Project Cards */
 .card {
-  background: white;
+  background: maroon;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 10px;
