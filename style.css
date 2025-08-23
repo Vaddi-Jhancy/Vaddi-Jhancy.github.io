@@ -10,7 +10,8 @@ body {
 
 /* Header */
 header {
-  background: #0078d7;
+/*   background: #0078d7; */
+  background:fuchsia;
   color: LightCoral;
   text-align: center;
   padding: 2rem;
@@ -22,7 +23,7 @@ header h1 {
 }
 
 nav a {
-  color: white;
+  color: blue;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -40,13 +41,14 @@ section {
 }
 
 h2 {
-  color: #0078d7;
+/*   color: #0078d7; */
+  color:white;
   margin-bottom: 1rem;
 }
 
 /* Project Cards */
 .card {
-  background: maroon;
+  background: black;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 10px;
@@ -59,7 +61,8 @@ h2 {
 
 /* Footer */
 footer {
-  background: #222;
+/*   background: #222; */
+  backgraound:gray;
   color: #aaa;
   text-align: center;
   padding: 1rem;
