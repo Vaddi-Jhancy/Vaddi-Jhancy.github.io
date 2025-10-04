@@ -3,58 +3,188 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <header>
-    <h1>Welcome to My Webpage</h1>
     <nav>
-      <a href="#about">About</a>
+      <a href="#home">Home</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#education">Education</a>
+      <a href="#Thesis">Research</a>
+      <a href="#Internships">Internships</a>
     </nav>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello 👋 I'm <b>Vaddi Jhancy</b>, Passionate about AI, Cyber-Security, Cloud, and Emerging Tech 🌐 | Exploring the future through Cryptography, Data, and Development 💡</p>
-  </section>
+  <!-- MAIN LAYOUT -->
+  <div class="container">
+  <aside class="profile-section">
+    <section id="home">
+      <img src="2024JCS2040.jpeg" alt="My Photo" class="profile-photo">
+      <div class="profile-info">  
+        <h1>Vaddi Jhancy</h1>
+        <p>M.tech in CyberSecurity | IIT Delhi </p>
+        <p>BE in CSE | UCEOU | Osmania University</p>
+        <p>Hello 👋 I'm <b>Vaddi Jhancy</b>, Passionate about AI, Cyber-Security, Cloud, and Emerging Tech 🌐 | Exploring the future through Cryptography, Data, and Development 💡</p>
+        <p><b><a href="mailto:vaddijhancy2002@gmail.com"><i class="fas fa-envelope"></i> vaddijhancy2002@gmail.com</a></b></p>
+        <p><a href="https://github.com/Vaddi-Jhancy"><i class="fa-brands fa-github"></i> GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/vaddi-jhancy-6014a123b"><i class="fab fa-linkedin"></i> Linkedin</a></p>
+        <p>Languages: Telugu, English, Hindi, German(A1)</p>
+        </section>
+    </aside>
+  </div>
+<!-- RIGHT MAIN CONTENT -->
+  <main class="main-content">
+    <section class="feed">
+        <!-- <section id="about">
+        <h2>About Me</h2>
+        <p>Hello 👋 I'm <b>Vaddi Jhancy</b>, Passionate about AI, Cyber-Security, Cloud, and Emerging Tech 🌐 | Exploring the future through Cryptography, Data, and Development 💡</p>
+        </section> -->
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>🚀 Contact-to-Contactless Fingerprint Matching</h3>
-      <p>Built a contact-to-contactless fingerprint matching system using minutiae extraction, preprocessing, and optimization-based algorithms (Hough, Core Point, Genetic Algorithm).</p>
-    </div>
-    <div class="card">
-      <h3>💻 Online Signature Verification System</h3>
-      <p>Developed a robust biometric authentication system that verifies users based on dynamic handwriting features (coordinates, pressure, timestamps, azimuth, altitude).</p>
-    </div>
-    <div class="card">
-      <h3>💻 Online Signature Verification System</h3>
-      <p>Developed a robust biometric authentication system that verifies users based on dynamic handwriting features (coordinates, pressure, timestamps, azimuth, altitude).</p>
-    </div>
-    <div class="card">
-      <h3>💻 Online Signature Verification System</h3>
-      <p>Developed a robust biometric authentication system that verifies users based on dynamic handwriting features (coordinates, pressure, timestamps, azimuth, altitude).</p>
-    </div>
-    <div class="card">
-      <h3>💻 Online Signature Verification System</h3>
-      <p>Developed a robust biometric authentication system that verifies users based on dynamic handwriting features (coordinates, pressure, timestamps, azimuth, altitude).</p>
-    </div>
-  </section>
+        <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3><i class="fas fa-fingerprint"></i> Contact-to-Contactless Fingerprint Matching</h3>
+            <p>Implemented a fingerprint recognition system linking contact-based and contactless fingerprints through minutiae extraction and alignment. 
+            <span class="hidden-content" style="display:none;">
+            Designed preprocessing for segmentation, enhancement, and orientation field computation. Applied Hough Transform, Core Point, and Genetic Algorithm matching for improved precision and robustness. Tools: Python, OpenCV, SciPy, and Scikit-Image.
+            </span>
+            </p>
+            <button class="read-more-btn" onclick="toggleReadMore(this)"><i class="fa-solid fa-plus"></i> Read more</button>
+        </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-<!--     <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p> -->
-    <p>Email:vaddijhancy2002@gmail.com</p>
-    <p><a href="https://github.com/Vaddi-Jhancy">GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/vaddi-jhancy-6014a123b">Linkedin</a></p>
-  </section>
+        <div class="card">
+            <h3>✍🏼 Online Signature Verification System</h3>
+            <p> Developed a biometric authentication system using dynamic signature features such as pen pressure, coordinates, and timestamps.
+            <span class="hidden-content" style="display:none;">
+            Implemented feature extraction using derivatives, polar transformations, and histograms, followed by Manhattan distance–based matching. Designed for accuracy and robustness in real-time signature verification using Python, NumPy, Pandas, and scikit-learn.
+            </span>
+            </p>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+        <div class="card">
+            <h3>👁️ Multi-Biometric Iris Recognition System (Deep Learning Approach)</h3>
+            <p>Built a CNN-based iris recognition system with preprocessing steps for localization and normalization. 
+            <span class="hidden-content" style="display:none;">
+            Implemented deep feature extraction and similarity matching using cosine and Euclidean metrics. Enhanced identification accuracy through fusion strategies—Highest Rank, Borda Count, and Logistic Regression. Developed using Python, TensorFlow, OpenCV, and NumPy.
+            </span>
+            </p>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+        <div class="card">
+            <h3>🌐  Network Traffic Analysis</h3>
+            <p>Analyzed large-scale network flows using probabilistic data structures (HyperLogLog, Count-Min Sketch, Bloom Filter) for traffic estimation and anomaly detection.</p>
+            <span class="hidden-content" style="display:none;">
+            <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
+            <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
+            <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
+            </span>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+        <div class="card">
+            <h3>🎬 MovieZone | Movie Recommendation System </h3>
+            <p> Built a content-based movie recommender (TMDB dataset) & API with cosine similarity; developed Streamlit app with sentiment analysis and feedback integration.</p>
+            <span class="hidden-content" style="display:none;">
+            <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
+            <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
+            <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
+            </span>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+        <div class="card">
+            <h3>💻 Optimized Breast Cancer Detection</h3>
+            <p>Implemented predictive modeling using an ANN on the Breast Cancer Wisconsin dataset; achieved accurate classification of benign vs. malignant tumors.</p>
+            <span class="hidden-content" style="display:none;">
+            <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
+            <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
+            <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
+            </span>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+
+        <div class="card">
+            <h3>🧬 DNA-Based Secure Data Hiding System</h3>
+            <p>
+              Designed a DNA steganography-based data hiding system ensuring confidentiality, integrity, and authenticity of hidden messages.
+              <span class="hidden-content" style="display:none;">
+                Combined compression (Huffman coding), AES-256 encryption, and error correction (Reed-Solomon, Hamming) for secure encoding. Embedded encrypted messages in DNA sequences using two steganographic methods for varying payload and security levels. Incorporated RSA/ECDSA digital signatures for sender authentication and data integrity verification. Provided multi-layered protection suitable for secure data storage and transmission.
+              </span >
+            </p>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>   
+        </div>
+
+        <div class="card">
+            <h3>🛡️ Security analysis (TLS & Vulnerability Assessment)</h3>
+            <p>Developed a TLS client in Python to perform secure handshakes, certificate validation, and encrypted HTTP communication. 
+            <span class="hidden-content" style="display:none;">
+            Captured and analyzed traffic with Wireshark to study TLS-TCP relationships. Conducted vulnerability assessments using Nmap and Burp Suite, identifying open ports and misconfigurations and recommending mitigations like HTTPS redirection and HSTS.
+            </span>
+            </p>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+        </div>
+        </section>
+
+        <!-- Thesis -->
+        <section id="Thesis">
+        <h2>Thesis</h2>
+        <h3>💻 Future-Proof DNA Data Storage for Secure and Privacy-Preserving Cloud Applications</h3>
+        <p>
+             Developing a secure DNA-based storage framework with Post-Quantum Cryptography and Homomorphic Encryption for quantum-resistant cloud operations. Incorporating hybrid error correction, blind steganography, and AI/ML-driven adaptive encoding to enhance reliability, security, and performance.
+        </p>
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+        <h2>Education</h2>
+        <h3>M.tech | CyberSecurity</h3><p>IIT Delhi | 2024 - Present </p>
+        <p><h3>Bachelor of Engineering | Computer Science and Engineering</h3>
+            University College of Engineering Osmania University | 2019 - 2023
+        </p>
+        </section>
+
+        <!-- Internships -->
+        <section id="Internships">
+        <h2>Internships</h2>
+        <p>
+            <h3> Pyramid Skilltech Pvt Ltd | Tender Aggregation (Jun 2022- Jul 2022)</h3>
+            <p>Explored web scraping technologies, analyzed Scrapy & BeautifulSoup, and implemented data extraction methods.</p>
+            <h3> Salesforce | SmartInternz (Virtual) (Jul 2022 - Sep 2022) </h3>
+            <p> Completed Salesforce training on automation, security, and coding; accomplished sandbox tasks and earned multiple badges.</p>
+        </p>
+        </section>
+
+        <!-- Soft Skills -->
+        <section>
+        <h2 onclick="toggleList(this)">Soft Skills....</h2>
+            <li>Problem Solving</li>
+            <li>Team Collaboration</li>
+            <li>Leadership</li>
+            <li>Communication</li>
+        </section>
+
+        <!-- Hobbies -->
+        <section>
+        <h2 onclick="toggleList(this)">Hobbies...</h2>
+            <li>Sports</li>
+            <li>Music</li>
+            <li>Travel</li>
+            <li>Reading</li>
+        </section>
+
+    </section>
+  </main>
+  </div>
 
   <footer>
-    <p>© 2025 Vaddi Jhancy</p>
+    <!-- <p>© 2025 Vaddi Jhancy</p> -->
+    <p>&copy; <span id="year"></span> Vaddi Jhancy</p>
+    <p>🌏 Hyderabad, Telangana, India</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
