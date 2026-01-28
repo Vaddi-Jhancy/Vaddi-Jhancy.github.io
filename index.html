@@ -47,7 +47,30 @@
         <h2>About Me</h2>
         <p>Hello 👋 I'm <b>Vaddi Jhancy</b>, Passionate about AI, Cyber-Security, Cloud, and Emerging Tech 🌐 | Exploring the future through Cryptography, Data, and Development 💡</p>
         </section> -->
+        <section>
+          <h2>Recent Works</h2>
+          <div class="card">
+          <h3>LazyLog- Erwin Blackbox implementation</h3>
+          <p>Implemented a minimal distributed sequencer/log replication system inspired by LazyLog-Erwin Blackbox.This provides a fast append-only distributed log sequencer using ZooKeeper for leader election, gRPC-based append APIs, and automatic failover.</p>
+          </div>
 
+           <div class="card">
+            <h3>👁️ Multi-Biometric Iris Recognition System (Deep Learning Approach)</h3>
+            <p>Built a CNN-based iris recognition system with preprocessing steps for localization and normalization. 
+            Implemented deep feature extraction and similarity matching using cosine and Euclidean metrics. Enhanced identification accuracy through fusion strategies—Highest Rank, Borda Count, and Logistic Regression. Developed using Python, TensorFlow, OpenCV, and NumPy.
+            </p>
+            
+        </div>
+
+          <div class="card">
+          <h3>🧬 DNA-Based Secure Data Hiding System</h3>
+            <p>Designed a DNA steganography-based data hiding system ensuring confidentiality, integrity, and authenticity of hidden messages.
+              Combined compression (Huffman coding), AES-256 encryption, and error correction (Reed-Solomon, Hamming) for secure encoding. Embedded encrypted messages in DNA sequences using two steganographic methods for varying payload and security levels. Incorporated RSA/ECDSA digital signatures for sender authentication and data integrity verification. Provided multi-layered protection suitable for secure data storage and transmission.
+            </p>
+          </div>
+        </section>
+      
+        </section>
         <section id="projects">
         <h2>Projects</h2>
         <div class="card">
@@ -57,7 +80,8 @@
             Designed preprocessing for segmentation, enhancement, and orientation field computation. Applied Hough Transform, Core Point, and Genetic Algorithm matching for improved precision and robustness. Tools: Python, OpenCV, SciPy, and Scikit-Image.
             </span>
             </p>
-            <button class="read-more-btn" onclick="toggleReadMore(this)"><i class="fa-solid fa-plus"></i> Read more</button>
+            <!-- <button class="read-more-btn" onclick="toggleReadMore(this)"><i class="fa-solid fa-plus"></i> Read more</button> -->
+            <button class="read-more-btn" onclick="toggleReadMore(this)"> Read more</button>
         </div>
 
         <div class="card">
@@ -80,33 +104,31 @@
         </div>
         <div class="card">
             <h3>🌐  Network Traffic Analysis</h3>
-            <p>Analyzed large-scale network flows using probabilistic data structures (HyperLogLog, Count-Min Sketch, Bloom Filter) for traffic estimation and anomaly detection.</p>
+            <p>Analyzed large-scale network flows using probabilistic data structures for traffic estimation and anomaly detection.</p>
             <span class="hidden-content" style="display:none;">
-            <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
-            <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
-            <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
+            <p>Implemented HyperLogLog for cardinality estimation, Count-Min Sketch for frequency analysis, and Bloom Filters for membership queries.</p>
             </span>
             <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
         </div>
         <div class="card">
             <h3>🎬 MovieZone | Movie Recommendation System </h3>
-            <p> Built a content-based movie recommender (TMDB dataset) & API with cosine similarity; developed Streamlit app with sentiment analysis and feedback integration.</p>
-            <span class="hidden-content" style="display:none;">
+            <p>Built a content-based movie recommender (TMDB dataset) & API with cosine similarity; developed Streamlit app with sentiment analysis and feedback integration.</p>
+            <!-- <span class="hidden-content" style="display:none;">
             <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
             <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
             <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
             </span>
-            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button> -->
         </div>
         <div class="card">
             <h3>💻 Optimized Breast Cancer Detection</h3>
             <p>Implemented predictive modeling using an ANN on the Breast Cancer Wisconsin dataset; achieved accurate classification of benign vs. malignant tumors.</p>
-            <span class="hidden-content" style="display:none;">
+            <!-- <span class="hidden-content" style="display:none;">
             <p>Implemented preprocessing pipeline (segmentation, enhancement, distortion correction, orientation field computation) and extracted minutiae points.</p>
             <p>Applied matching algorithms (Hough Transform, Core Point, Genetic Algorithm) and evaluated performance using accuracy, precision, recall, and F1-score.</p>
             <p>Tools: Python, OpenCV, NumPy, SciPy, Scikit-Image, PyTorch, DEAP.</p>
             </span>
-            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button> -->
         </div>
 
         <div class="card">
@@ -130,14 +152,13 @@
             <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
         </div>
         </section>
-      </section>
 
         <!-- Thesis -->
         <section id="Thesis">
         <h2>Thesis</h2>
         <h3>💻 Future-Proof DNA Data Storage for Secure and Privacy-Preserving Cloud Applications</h3>
-        <p>
-             Developing a secure DNA-based storage framework with Post-Quantum Cryptography and Homomorphic Encryption for quantum-resistant cloud operations. Incorporating hybrid error correction, blind steganography, and AI/ML-driven adaptive encoding to enhance reliability, security, and performance.
+        <p>This project addresses these critical issues by establishing the theoretical foundation for a novel DNA-based storage framework that integrates Post-Quantum Cryptography (PQC) and Homomorphic Encryption (HE).</p>
+        <p>The PQC components leverage lattice-based schemes—CRYSTALS-Kyber for key encapsulation and CRYSTALS-Dilithium for digital signatures—whose security relies on the hardness of lattice problems like Module Learning With Errors (MLWE). The privacy mechanism uses HE schemes (BFV, BGV, CKKS) to enable secure computation on encrypted data.
         </p>
         </section>
 
