@@ -69,8 +69,8 @@ nav a:hover {
 
 .profile-photo {
   border-radius: 50%;
-  width: 110px;
-  height: 130px;
+  width: 90px;
+  height: 110px;
   object-fit: cover;
   /* border: 4px solid #024451; */
   margin-bottom: 0;
