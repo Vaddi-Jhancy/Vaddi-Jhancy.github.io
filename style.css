@@ -59,7 +59,7 @@ nav a:hover {
   width: 25%;
   padding: 20px;
   position: fixed;      
-  top: 60px;
+  top: 65px;
   left: 20px;
   height: calc(100vh - 100px -60px); 
   background: rgba(0,0,0,0.05); 
